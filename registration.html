@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zunder Zifflin</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="registration.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-img">
+            <a href="index.html">
+                <img src="logo.png" alt="logo img">
+            </a>
+        </div>
+
+        <div class="navbar-container">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="product.html">Products</a></div>
+            <div class="nav-item dropdown"><a href="#dropdown">About Us<i
+                        class="material-icons">keyboard_arrow_down</i></a>
+                <div class="dropdown-menu">
+                    <a href="contact.html">Contact Us</a>
+                    <a href="profile.html">Company Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="regis-container">
+            <div class="button-rounded regis-btn">
+                Registration
+            </div>
+        </div>
+
+        <!-- Responsive Navbar -->
+        <div class="svg-button" onclick="toogleNavbar()">
+            <svg viewBox="0 0 100 80" width="40" height="40" fill="#12232E">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </div>
+
+        <div class="responsive-navbar">
+            <div class="navbar-container">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="product.html">Products</a></div>
+                <div class="nav-item"><a href="contact.html">Contact Us</a></div>
+                <div class="nav-item"><a href="profile.html">Company Profile</a></div>
+                <div class="regis-container">
+                    <div class="button-rounded regis-btn-responsive">
+                        Registration
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Responsive Navbar -->
+
+    </div>
+
+    <div class="content">
+        <div class="img-left">
+            <img src="regist.jpg" alt="">
+        </div>
+        <form action="#" id="form-regist">
+            <h2>Fill the form below</h2>
+            <div class="fill-form">
+                <span>Name</span>
+                <input type="text" placeholder="Your Name" id="name">
+                <div class="errorLabel" id="errorName">
+
+                </div>
+            </div>
+            <div class="fill-form">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="email@gmail.com" id="email">
+                <div class="errorLabel" id="errorEmail">
+
+                </div>
+            </div>
+            <div class="fill-form">
+                <span>Gender</span>
+                <div class="radio-input">
+                    <input type="radio" name="gender" value="Male" id="male">
+                    <span>Male</span>
+                    <input type="radio" name="gender" value="Female" id="female">
+                    <span>Female</span>
+                    <div class="errorLabel" id="errorGender">
+
+                    </div>
+                </div>
+            </div>
+            <div class="fill-form">
+                <span>Address</span>
+                <textarea name="address" cols="30" rows="3" placeholder="Hundred Score HCI Street Block A No.100" id="address"></textarea>
+                <div class="errorLabel" id="errorAddress">
+
+                </div>
+            </div>
+            <div class="fill-form">
+                <span>City</span>
+                <select name="city" id="city">
+                    <option value="" selected disabled hidden>Select city</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Tangerang">Tangerang</option>
+                    <option value="Alam Sutera">Alam Sutera</option>
+                </select>
+                <!-- <input type="text" name="city" placeholder="Jakarta" id="city"> -->
+                <div class="errorLabel" id="errorCity">
+
+                </div>
+            </div>
+
+            <div class="fill-form">
+                <div class="checkbox-input">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <span>I agree with company terms and service.</span>
+                    <div class="errorLabel" id="errorAgreement">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="fill-form">
+                <input type="button" value="Register" onclick="register()" id="regist-button">
+                <div class="errorLabel" id="errorButton">
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <div class="foot-copyright">
+            &copy; Zunder Zifflin, Inc.
+        </div>
+        <div class="foot-contact">
+            <div class="foot-text">
+                Visit our profile
+            </div>
+            <div class="foot-logo">
+                <div class="facebook">
+                    <a href="https://www.facebook.com">
+                        <img src="facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="twitter">
+                    <a href="https://www.twitter.com">
+                        <img src="twitter.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

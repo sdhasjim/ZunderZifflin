@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zunder Zifflin</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="contact.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-img">
+            <a href="index.html">
+                <img src="logo.png" alt="logo img">
+            </a>
+        </div>
+
+        <div class="navbar-container">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="product.html">Products</a></div>
+            <div class="nav-item dropdown"><a href="#dropdown">About Us<i
+                        class="material-icons">keyboard_arrow_down</i></a>
+                <div class="dropdown-menu">
+                    <a href="contact.html">Contact Us</a>
+                    <a href="profile.html">Company Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="regis-container">
+            <div class="button-rounded regis-btn">
+                Registration
+            </div>
+        </div>
+
+        <!-- Responsive Navbar -->
+        <div class="svg-button" onclick="toogleNavbar()">
+            <svg viewBox="0 0 100 80" width="40" height="40" fill="#12232E">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </div>
+
+        <div class="responsive-navbar">
+            <div class="navbar-container">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="product.html">Products</a></div>
+                <div class="nav-item"><a href="contact.html">Contact Us</a></div>
+                <div class="nav-item"><a href="profile.html">Company Profile</a></div>
+                <div class="regis-container">
+                    <div class="button-rounded regis-btn-responsive">
+                        Registration
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Responsive Navbar -->
+
+    </div>
+
+    <div class="contact-banner">
+        <div class="banner-container">
+            <!-- <h2>Zunder Zifflin's Contact</h2>
+            <p>We try to serve you the best!</p> -->
+        </div>
+    </div>
+
+    <div class="interchange">
+        <div class="text-intro">
+            Our Office
+        </div>
+        <div class="text-desc">
+            We try to serve you better! Don't hesitate to contact us!
+        </div>
+    </div>
+
+    <div class="sect-content">
+        <div class="branch1">
+            <div class="office-stat">
+                Main Office @Virginia Alexandra
+            </div>
+            <div class="card" id="card1">
+                <div class="imgBox">
+                    <img src="Alexandria_VA_church.jpg" alt="">
+                    <img src="modern-business-center.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <div class="address">
+                            <div class="icon">
+                                <img src="pin.svg" alt="">
+                            </div>
+                            <div class="road">
+                                N Garland Street
+                            </div>
+                        </div>
+                        <div class="email">
+                            <div class="icon">
+                                <img src="email.svg" alt="">
+                            </div>
+                            <div class="road">
+                                zunderziffmain@gmail.com
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <div class="icon">
+                                <img src="call (1).svg" alt="">
+                            </div>
+                            <div class="road">
+                                (+1) 97273132
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="location-office">
+                @Jakarta
+            </div> -->
+
+        <div class="branch2">
+            <div class="office-stat">
+                Branch Office 1
+            </div>
+            <div class="card" id="card2">
+                <div class="imgBox">
+                    <img src="pexels-tom-fisk-2126389.jpg" alt="">
+                    <img src="beautiful-architecture-office-business-building-with-glass-window-shape.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <div class="address">
+                            <div class="icon">
+                                <img src="pin.svg" alt="">
+                            </div>
+                            <div class="road">
+                                Sudirman Street No.123
+                            </div>
+                        </div>
+                        <div class="email">
+                            <div class="icon">
+                                <img src="email.svg" alt="">
+                            </div>
+                            <div class="road">
+                                zunderziffjkt@gmail.com
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <div class="icon">
+                                <img src="call (1).svg" alt="">
+                            </div>
+                            <div class="road">
+                                +(62) 8123144353
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-office">
+                @Jakarta
+            </div>
+        </div>
+
+        <div class="branch3">
+            <div class="card" id="card3">
+                <div class="imgBox">
+                    <img src="bandung.jpg" alt="">
+                    <img src="low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <div class="address">
+                            <div class="icon">
+                                <img src="pin.svg" alt="">
+                            </div>
+                            <div class="road">
+                                Asia Afrika Street No.69
+                            </div>
+                        </div>
+                        <div class="email">
+                            <div class="icon">
+                                <img src="email.svg" alt="">
+                            </div>
+                            <div class="road">
+                                zunderziffbdg@gmail.com
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <div class="icon">
+                                <img src="call (1).svg" alt="">
+                            </div>
+                            <div class="road">
+                                +(62) 8777828359
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-office">
+                Branch Office 2 @Bandung
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="foot-copyright">
+            &copy; Zunder Zifflin, Inc.
+        </div>
+        <div class="foot-contact">
+            <div class="foot-text">
+                Visit our profile
+            </div>
+            <div class="foot-logo">
+                <div class="facebook">
+                    <a href="https://www.facebook.com">
+                        <img src="facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="twitter">
+                    <a href="https://www.twitter.com">
+                        <img src="twitter.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

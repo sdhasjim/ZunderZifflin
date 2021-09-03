@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zunder Zifflin</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="product.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="product.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo-img">
+            <a href="index.html">
+                <img src="logo.png" alt="logo img">
+            </a>
+        </div>
+
+        <div class="navbar-container">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="product.html">Products</a></div>
+            <div class="nav-item dropdown"><a href="#dropdown">About Us<i
+                            class="material-icons">keyboard_arrow_down</i></a>
+                <div class="dropdown-menu">
+                    <a href="contact.html">Contact Us</a>
+                    <a href="profile.html">Company Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="regis-container">
+            <div class="button-rounded regis-btn">
+                Registration
+            </div>
+        </div>
+
+        <!-- Responsive Navbar -->
+        <div class="svg-button" onclick="toogleNavbar()">
+            <svg viewBox="0 0 100 80" width="40" height="40" fill="#12232E">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </div>
+
+        <div class="responsive-navbar">
+            <div class="navbar-container">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="product.html">Products</a></div>
+                <div class="nav-item"><a href="contact.html">Contact Us</a></div>
+                <div class="nav-item"><a href="profile.html">Company Profile</a></div>
+                <div class="regis-container">
+                    <div class="button-rounded regis-btn-responsive">
+                        Registration
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Responsive Navbar -->
+
+
+    </div>
+
+    <div class="content">
+        <div class="product-banner">
+            <div class="banner-container">
+                <h2>Zunder Zifflin's Product</h2>
+                <p>Explore our best products here!</p>
+                <div class="button-rounded explore">
+                    Explore Now!
+                </div>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <!-- Writing Product Row -->
+            <h3 class="product-category">Writing Product</h3>
+            <div class="product-row" data-aos="fade-up">
+                <div class="product-item">
+                    <img src="writing1.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Photocopy Paper</h3>
+                        <div class="hide">
+                            <p>Photocopy paper is a multipurpose paper that can supply the needs of offices and institutions. With its high quality, ZunderZifflin photocopy paper is created for high-speed copiers to produce the best printing result.</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.40.000,-</p>
+                                <p><i class="material-icons">grade</i> 5</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="writing2.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Plus</h3>
+                        <div class="hide">
+                            <p>Paper for High Quality Printing Needs with bright appearance, high opacity for double side printing, and high thickness and also smoothness for trouble free running on copy machines</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.30.000,-</p>
+                                <p><i class="material-icons">grade</i> 4.7</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="writing3.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Global</h3>
+                        <div class="hide">
+                            <p>MultiPurpose Copy Paper For All Needs with Optimized thickness & Smoothness for all printing jobs, and Trouble free performance on copy machines</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.43.000,-</p>
+                                <p><i class="material-icons">grade</i> 4.6</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Writing Product Row -->
+            <h3 class="product-category">Office Product</h3>
+            <div class="product-row" data-aos="fade-up">
+                <div class="product-item">
+                    <img src="office1.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Stickii</h3>
+                        <div class="hide">
+                            <p>Stickiii Notes is a paper with adhesive so that it can be attached to media with dry surfaces around you.</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.13.500,-</p>
+                                <p><i class="material-icons">grade</i> 4.9</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="office2.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Writing Pad</h3>
+                        <div class="hide">
+                            <p>A5 Size writing pad with thick, glowing, and perfect smoothness paper</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.21.000,-</p>
+                                <p><i class="material-icons">grade</i> 4.1</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="office3.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Envelope</h3>
+                        <div class="hide">
+                            <p>Envelope for all purposes, anti-transparent paper, and also include adhesive to seal</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.31.000,-</p>
+                                <p><i class="material-icons">grade</i> 4.4</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Product Row-->
+            <h3 class="product-category">Other</h3>
+            <div class="product-row" data-aos="fade-up">
+                <div class="product-item">
+                    <img src="other1.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Hachiro etc</h3>
+                        <div class="hide">
+                            <p>Designed paper with many kinds of color perfectly used for brochure etc.</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.28.000,-</p>
+                                <p><i class="material-icons">grade</i> 4.6</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="other2.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Continuous Form</h3>
+                        <div class="hide">
+                            <p>Affordable continuous form with high quality paper. Satisfaction guaranteed.</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.63.000,-</p>
+                                <p><i class="material-icons">grade</i> 3.9</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <img src="other3.jpg" alt="">
+                    <div class="product-item-desc">
+                        <h3>ZunderZifflin Stationery</h3>
+                        <div class="hide">
+                            <p>ZunderZifflin stationary products are a complete range of office and stationery supplies created with the highest quality paper for every needs. ZunderZifflin Is the test choice for your line Of professionalism.</p>
+                            <span>
+                                <p><i class="material-icons">attach_money</i> Rp.40.000,-</p>
+                                <p><i class="material-icons">grade</i> 5</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="foot-copyright">
+            &copy; Zunder Zifflin, Inc.
+        </div>
+        <div class="foot-contact">
+            <div class="foot-text">
+                Visit our profile
+            </div>
+            <div class="foot-logo">
+                <div class="facebook">
+                    <a href="https://www.facebook.com">
+                        <img src="facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="twitter">
+                    <a href="https://www.twitter.com">
+                        <img src="twitter.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
